@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    width:700px;
+    margin: 30px auto;
+    margin-top: 25px;
+    text-align: center;
+    padding: 0 15px;
+
+}
+
+h1{
+    
+    text-align: justify;
+
+}
+
+
+.g1{
+    color: rgb(128, 5, 42);
+}
+
+
+.mil{
+    background-color: rgb(0, 155, 0);
+    padding: 0px 5px;
+    color: black;
+}
+
+
+.telegram{
+    color: aqua;
+}
+
+
+.button1{
+    display: flex;
+    justify-content: center;
+}
+
+
+button{
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    border: 0;
+    background: rgb(0, 153, 0);
+    background: linear-gradient(to top, rgb(0, 80, 0), rgb(0, 153, 0));
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+
+
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    background-color: #fe0000;
+    margin-bottom: 25px;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.chegou{
+    display: flex;
+    justify-content: center;
+    background-color: #01b522;
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 470px; 
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.gratuitoo{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 900;
+    color: #04f506;
+    margin-top: 20px;
+}
+
+.aproveitar{
+    display: flex;
+    justify-content: center;
+    background-color: #01b522;
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 470px; 
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+img{
+   
+    height: auto;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sorteio h1{
+    text-align: center;
+}
+
+.comentarios{
+    display: flex;
+    justify-content: center;
+}
+
+
+button{
+    padding: 30px 100px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+  background-color: rgb(0, 255, 0);  
+}
+
+.button1{
+    margin-bottom: 60px;
+}
+
+
+
+/* Celular */
+
+
+@media (max-width: 450px) {
+    
+    header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 ;
+        font-size: 7px; 
+    }
+
+    .chegou{
+        font-size: 15px;
+        margin-top: 50px;
+        width: 350px;
+    }
+
+    .chegou h2{
+        width: 350px;
+    }
+
+
+    img{
+        width: 380px;
+    }
+
+
+    .aproveitar{
+        font-size: 15px;
+
+        width: 350px;
+    }
+
+
+    .texto {
+        font-size: 12px;
+        width: 350px; /* Reduz o tamanho da fonte para a descrição */
+    }
+
+    .button1 button {
+        width: 350px; /* O botão ocupa toda a largura disponível */
+        padding: 20px 0; /* Reduz o padding vertical */
+    }
+
+    .gratuitoo {
+        font-size: 30px; /* Ajusta o tamanho da fonte para "100% GRATUITO" */
+    }
+}
+
+
+
+/*Tablets*/
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    
+
+    .texto{
+        width: 600px;
+    }
+
+
+    .comentarios{
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+
