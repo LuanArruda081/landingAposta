@@ -11,6 +11,7 @@
 body{
     background-color: black;
     color: white;
+;
 }
 
 .texto{
@@ -21,6 +22,12 @@ body{
     margin-top: 25px;
     text-align: center;
     padding: 0 15px;
+
+}
+
+.texto h2{
+    text-align: center;
+
 
 }
 
@@ -51,6 +58,7 @@ h1{
 .button1{
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -65,7 +73,7 @@ button{
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .imagem{
@@ -97,7 +105,7 @@ header{
     padding: 15px;
     font-size: 25px;
     font-weight: 500;
-    max-width: 470px; 
+ 
     width: 100%;
     margin: auto;
     text-align: center;
@@ -120,16 +128,12 @@ header{
     padding: 15px;
     font-size: 25px;
     font-weight: 500;
-    max-width: 470px; 
+
     width: 100%;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-img{
-   
-    height: auto;
-    max-width: 100%;
-}
+
 a{
     text-decoration: none;
     color: white;
@@ -147,7 +151,17 @@ a{
 
 button{
     padding: 30px 100px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s;   animation: pulse 0.4s infinite alternate; /* Define a animação chamada "pulse" */
+}
+
+/* Define a animação de pulsação */
+@keyframes pulse {
+    0% {
+        transform: scale(1); /* Tamanho normal */
+    }
+    100% {
+        transform: scale(1.1); /* Tamanho aumentado */
+    }
 }
 
 button:hover{
@@ -155,7 +169,7 @@ button:hover{
 }
 
 .button1{
-    margin-bottom: 60px;
+    margin-bottom: 15px;
 }
 
 
@@ -163,20 +177,20 @@ button:hover{
 /* Celular */
 
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     
     header {
         display: flex;
         justify-content: center;
-        width: 100%;
+
         margin: 0 ;
         font-size: 7px; 
     }
 
     .chegou{
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 50px;
-        width: 350px;
+        width: 330px;
     }
 
     .chegou h2{
@@ -185,30 +199,44 @@ button:hover{
 
 
     img{
-        width: 380px;
+        width: 360px;
     }
 
 
     .aproveitar{
-        font-size: 15px;
+        font-size: 13px;
 
-        width: 350px;
+        width: 330px;
     }
 
 
     .texto {
         font-size: 12px;
-        width: 350px; /* Reduz o tamanho da fonte para a descrição */
+        width: 330px; 
+   /* Reduz o tamanho da fonte para a descrição */
     }
 
+    .texto h2{
+       
+    }
+
+
     .button1 button {
-        width: 350px; /* O botão ocupa toda a largura disponível */
+        width: 330px; /* O botão ocupa toda a largura disponível */
         padding: 20px 0; /* Reduz o padding vertical */
     }
 
     .gratuitoo {
-        font-size: 30px; /* Ajusta o tamanho da fonte para "100% GRATUITO" */
+        font-size: 27px; /* Ajusta o tamanho da fonte para "100% GRATUITO" */
     }
+
+
+    .comentarios{
+        width: 340px;
+        margin: 0 auto;
+    }
+
+
 }
 
 
