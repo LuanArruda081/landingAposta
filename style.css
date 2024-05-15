@@ -95,6 +95,7 @@ header{
     font-size: 10px;
     text-align: center;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 .chegou{
@@ -106,7 +107,7 @@ header{
     font-size: 25px;
     font-weight: 500;
  
-    width: 100%;
+    width: 470px;
     margin: auto;
     text-align: center;
 }
@@ -118,6 +119,7 @@ header{
     font-weight: 900;
     color: #04f506;
     margin-top: 20px;
+
 }
 
 .aproveitar{
@@ -128,8 +130,7 @@ header{
     padding: 15px;
     font-size: 25px;
     font-weight: 500;
-
-    width: 100%;
+    width: 470px;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -239,7 +240,11 @@ button:hover{
 
 }
 
-
+@media (min-width: 481px) and (max-width: 767) {
+        header{
+            margin: auto;
+        }
+}
 
 /*Tablets*/
 
